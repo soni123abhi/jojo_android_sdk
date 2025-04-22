@@ -51,7 +51,7 @@ publishing {
         create<MavenPublication>("release") {
             groupId = "com.github.soni123abhi" // ✅ your GitHub username
             artifactId = "androidjojolibrary"
-            version = "1.0.0"
+            version = "1.0.1"
 
             // Safely access the release component using withComponents()
             afterEvaluate {
